@@ -1,15 +1,3 @@
-# 爬取采购数据
-
-## 包含的功能
-+		此爬虫实现了对马帮采购数据的爬取，
-+		钉钉机器人自动推送的功能
-+		邮件报警功能
-
-### 使用说明：
-1. 需要配置 `\conf\config.py` 和 `\controller\email.py` 这两个文件
-
-### config.py 配置文件
-```
 from datetime import datetime
 from collections import OrderedDict
 import os
@@ -21,9 +9,7 @@ BROWSER = {
 }
 
 ROBOT = {
-	#web服务器地址
     'ROBOT_COMMON_URL':'http://xxxxxxxxxxx:83',
-    #钉钉机器人地址
 	'ROBOT_URL': 'https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 }
 
@@ -33,7 +19,6 @@ FILE_MIN_NUM = 0
 
 CURRENT_DATE = datetime.now().strftime('%Y%m%d')
 
-//账号信息
 USER_INFO = {
     'username' : 'xxxxxxxxxx',
     'password' : 'xxxxxxxxxxxxxxxxxxxx'
@@ -75,19 +60,3 @@ PURCHASE = OrderedDict([
 	(35,('ali1688_sum_payment','1688实付金额')),
 	(36,('create_oper_name','下单员'))
 ])
-```
-
-
-### 邮件配置文件
-```
-//邮件服务器地址
-self.mail_host = 'smtp.exmail.qq.com'
-//邮件服务器登陆名
-self.mail_user = 'xxxxxxxxxx'
-//登陆密码
-self.mail_passwd = 'xxxxxxxxxxxx'
-self.mail_port = '465'
-//邮件接收人地址
-self.receivers = "xxxxxxxxxxxxxx"
-
-```

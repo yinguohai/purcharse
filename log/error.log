@@ -1,0 +1,274 @@
+
+time:2019-01-30 17:07:48,701 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().send_dingding()
+TypeError: send_dingding() missing 2 required positional arguments: 'robotUrl' and 'sendRobotContent'
+
+time:2019-01-30 17:08:04,386 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().send_dingding()
+TypeError: send_dingding() missing 2 required positional arguments: 'robotUrl' and 'sendRobotContent'
+
+time:2019-01-30 17:08:19,581 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().send_dingding()
+TypeError: send_dingding() missing 2 required positional arguments: 'robotUrl' and 'sendRobotContent'
+
+time:2019-01-30 17:11:26,522 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().index().export().send_message()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 35, in index
+    self.set_init_page()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 53, in set_init_page
+    if not self.is_disabled('//*[@id="inputgopagepagediv"]'):
+  File "E:\www\newscrapy\purcharse\core\browser.py", line 67, in is_disabled
+    result = self._get_browser().find_element_by_xpath(xpath).get_attribute('disabled')
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 143, in get_attribute
+    resp = self._execute(Command.GET_ELEMENT_ATTRIBUTE, {'name': name})
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+
+time:2019-01-30 17:12:39,842 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().index().export().send_message()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 35, in index
+    self.set_init_page()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 53, in set_init_page
+    if not self.is_disabled('//*[@id="inputgopagepagediv"]'):
+  File "E:\www\newscrapy\purcharse\core\browser.py", line 67, in is_disabled
+    result = self._get_browser().find_element_by_xpath(xpath).get_attribute('disabled')
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 143, in get_attribute
+    resp = self._execute(Command.GET_ELEMENT_ATTRIBUTE, {'name': name})
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+
+time:2019-01-30 17:13:54,877 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().index().export().send_message()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 35, in index
+    self.set_init_page()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 53, in set_init_page
+    if not self.is_disabled('//*[@id="inputgopagepagediv"]'):
+  File "E:\www\newscrapy\purcharse\core\browser.py", line 67, in is_disabled
+    result = self._get_browser().find_element_by_xpath(xpath).get_attribute('disabled')
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 143, in get_attribute
+    resp = self._execute(Command.GET_ELEMENT_ATTRIBUTE, {'name': name})
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+
+time:2019-02-20 03:36:57,334 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().index().export().send_message()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 34, in index
+    self.swith_iFrame('//*[@id="iframeContent"]')
+  File "E:\www\newscrapy\purcharse\core\browser.py", line 90, in swith_iFrame
+    EC.frame_to_be_available_and_switch_to_it((By.XPATH, xpath))
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+time:2019-02-20 03:37:57,981 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().index().export().send_message()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 34, in index
+    self.swith_iFrame('//*[@id="iframeContent"]')
+  File "E:\www\newscrapy\purcharse\core\browser.py", line 90, in swith_iFrame
+    EC.frame_to_be_available_and_switch_to_it((By.XPATH, xpath))
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+time:2019-02-20 03:39:01,827 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().index().export().send_message()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 34, in index
+    self.swith_iFrame('//*[@id="iframeContent"]')
+  File "E:\www\newscrapy\purcharse\core\browser.py", line 90, in swith_iFrame
+    EC.frame_to_be_available_and_switch_to_it((By.XPATH, xpath))
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+time:2019-02-20 09:38:05,754 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().index().export().send_message()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 34, in index
+    self.swith_iFrame('//*[@id="iframeContent"]')
+  File "E:\www\newscrapy\purcharse\core\browser.py", line 90, in swith_iFrame
+    EC.frame_to_be_available_and_switch_to_it((By.XPATH, xpath))
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+time:2019-02-20 09:39:12,802 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().index().export().send_message()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 34, in index
+    self.swith_iFrame('//*[@id="iframeContent"]')
+  File "E:\www\newscrapy\purcharse\core\browser.py", line 90, in swith_iFrame
+    EC.frame_to_be_available_and_switch_to_it((By.XPATH, xpath))
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+time:2019-02-20 09:40:17,129 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().index().export().send_message()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 34, in index
+    self.swith_iFrame('//*[@id="iframeContent"]')
+  File "E:\www\newscrapy\purcharse\core\browser.py", line 90, in swith_iFrame
+    EC.frame_to_be_available_and_switch_to_it((By.XPATH, xpath))
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+time:2019-02-20 09:48:12,686 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().index().export().send_message()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 35, in index
+    self.set_init_page()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 44, in set_init_page
+    self.click_element('//*[@id="pagediv"]/div/div[1]/button')
+  File "<decorator-gen-2>", line 2, in click_element
+  File "E:\Program Files (x86)\Python\lib\site-packages\retry\api.py", line 74, in retry_decorator
+    logger)
+  File "E:\Program Files (x86)\Python\lib\site-packages\retry\api.py", line 33, in __retry_internal
+    return f()
+  File "E:\www\newscrapy\purcharse\core\browser.py", line 54, in click_element
+    EC.element_to_be_clickable((By.XPATH, xpath))
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+time:2019-03-06 03:38:28,557 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().index().export().send_message()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 21, in export
+    if not self.set_next_page():
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 68, in set_next_page
+    self.click_element('//*[@id="nextpagepagediv"]')
+  File "<decorator-gen-2>", line 2, in click_element
+  File "E:\Program Files (x86)\Python\lib\site-packages\retry\api.py", line 74, in retry_decorator
+    logger)
+  File "E:\Program Files (x86)\Python\lib\site-packages\retry\api.py", line 33, in __retry_internal
+    return f()
+  File "E:\www\newscrapy\purcharse\core\browser.py", line 56, in click_element
+    self.get_element(xpath).click()
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <button type="button" class="btn btn-default" data-container="body" data-original-title="ÏÂÒ»Ò³" data-toggle="tooltip" data-placement="top" id="nextpagepagediv" onclick="manageList.findPurchaseManagerList(500,2)">...</button> is not clickable at point (455, 839). Other element would receive the click: <div id="exportPurchase" class="modal fade in" aria-hidden="false" style="display: block;">...</div>
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+
+time:2019-03-12 03:39:38,237 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().index().export().send_message()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 36, in index
+    self.set_init_page()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 45, in set_init_page
+    self.click_element('//*[@id="pagediv"]/div/div[1]/button')
+  File "<decorator-gen-2>", line 2, in click_element
+  File "E:\Program Files (x86)\Python\lib\site-packages\retry\api.py", line 74, in retry_decorator
+    logger)
+  File "E:\Program Files (x86)\Python\lib\site-packages\retry\api.py", line 33, in __retry_internal
+    return f()
+  File "E:\www\newscrapy\purcharse\core\browser.py", line 54, in click_element
+    EC.element_to_be_clickable((By.XPATH, xpath))
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+time:2019-03-12 03:43:21,760 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().index().export().send_message()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 36, in index
+    self.set_init_page()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 45, in set_init_page
+    self.click_element('//*[@id="pagediv"]/div/div[1]/button')
+  File "<decorator-gen-2>", line 2, in click_element
+  File "E:\Program Files (x86)\Python\lib\site-packages\retry\api.py", line 74, in retry_decorator
+    logger)
+  File "E:\Program Files (x86)\Python\lib\site-packages\retry\api.py", line 33, in __retry_internal
+    return f()
+  File "E:\www\newscrapy\purcharse\core\browser.py", line 54, in click_element
+    EC.element_to_be_clickable((By.XPATH, xpath))
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+time:2019-03-12 03:47:04,878 	 levelname:ERROR 
+ msg:Traceback (most recent call last):
+  File "E:\www\newscrapy\purcharse\run.py", line 19, in scrapy_product
+    Purchase().index().export().send_message()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 36, in index
+    self.set_init_page()
+  File "E:\www\newscrapy\purcharse\controller\purchase.py", line 45, in set_init_page
+    self.click_element('//*[@id="pagediv"]/div/div[1]/button')
+  File "<decorator-gen-2>", line 2, in click_element
+  File "E:\Program Files (x86)\Python\lib\site-packages\retry\api.py", line 74, in retry_decorator
+    logger)
+  File "E:\Program Files (x86)\Python\lib\site-packages\retry\api.py", line 33, in __retry_internal
+    return f()
+  File "E:\www\newscrapy\purcharse\core\browser.py", line 54, in click_element
+    EC.element_to_be_clickable((By.XPATH, xpath))
+  File "E:\Program Files (x86)\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
